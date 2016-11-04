@@ -1,3 +1,9 @@
+# gulp-cli4
+
+Update for ``gulp4`` package.
+
+Real ``gulp-cli`` version: 1.2.2
+
 <p align="center">
   <a href="http://gulpjs.com">
     <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
@@ -13,7 +19,7 @@ Command Line Utility for Gulp
 ## Usage
 
 ```bash
-> gulp [flags] tasks
+> gulp4 [flags] tasks
 ```
 
 ## Custom Metadata

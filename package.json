@@ -1,6 +1,6 @@
 {
   "name": "gulp-cli4",
-  "version": "1.2.2",
+  "version": "0.1.0",
   "description": "Command line interface for gulp",
   "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
   "contributors": [],
@@ -25,7 +25,6 @@
   "scripts": {
     "coveralls": "lab -r lcov | coveralls",
     "lint": "eslint . && jscs index.js bin/ lib/ test/",
-    "prepublish": "marked-man --name gulp docs/CLI.md > gulp.1",
     "pretest": "npm run lint",
     "test": "lab test/*.js -cv -I Reflect",
     "changelog": "github-changes -o gulpjs -r gulp-cli -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
